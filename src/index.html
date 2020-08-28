@@ -3,22 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mizuxe</title>
+    <link rel="shortcut icon" href="img/mlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="navbar-fixes.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/style.css">    
 </head>
 <body>
-    <div class="container text-center">
-        <h1>On Linux First Repository</h1>
-    </div>
+    <nav class="navbar navbar-light navbar-expand-lg py-3 fixed-top">
+        <div class="container">
+            <a href="#showcase" class="navbar-brand">
+                <img class="img-fluid" src="img/mlogo.png" alt="M" height="50px" width=50px>
+                <h3 class="d-inline align-middle">Mizuxe</h3>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarnav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarnav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link"  href="#showcase">Home</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="#authors">Meet The Authors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
 
 
     <!-- JS FILES -->
     <script src="js/jquery.slim.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/navbar-fixes.js"></script>
 </body>
 </html>
